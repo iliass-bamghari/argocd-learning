@@ -1,0 +1,7 @@
+apiVersion: k3d.io/v1alpha2
+kind: Simple
+options:
+  k3s:
+    extraServerArgs:
+    - --tls-san=192.168.1.42 # Add extra TLS Subject Alternative Name (SAN)
+    extraAgentArgs: [] # Extra arguments for agent nodes can be added here
