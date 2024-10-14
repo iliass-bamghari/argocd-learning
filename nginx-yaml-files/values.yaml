@@ -2,7 +2,7 @@
 # This is a YAML_formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 3
+replicaCount: 5
 
 wishlistImage:
   repository: karthequian/wishlist
