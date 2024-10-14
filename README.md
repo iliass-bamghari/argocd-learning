@@ -1,0 +1,1 @@
+use argocd with heml chart
